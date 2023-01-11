@@ -1,17 +1,16 @@
 package com.github.methawinnikaji.models;
 
-public class Doraemon extends Anime {
-
-    public Doraemon() {
-        super("Doraemon", "1-1-1995",Genre.COMEDY);
+public class Pokemon extends Anime {
+    public Pokemon() {
+        super("Pokemon","1-1-1995",Genre.FANTASY);
     }
 
     @Override
     public String[] details() {
-        return new String[] {
-                "Doraemon created by Fujiko F Fujio",
-                "and bra bra bra",
-                "then bra bra bra"
+        return new String[]{
+                "pokemon",
+                "Is created by  satoshi tajiri ",
+                "the manga was published in 1996 "
         };
     }
     @Override
@@ -22,5 +21,3 @@ public class Doraemon extends Anime {
         };
     }
 }
-
-

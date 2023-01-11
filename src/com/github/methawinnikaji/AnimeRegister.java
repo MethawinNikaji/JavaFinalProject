@@ -3,6 +3,7 @@ package com.github.methawinnikaji;
 
 import com.github.methawinnikaji.models.Anime;
 import com.github.methawinnikaji.models.Doraemon;
+import com.github.methawinnikaji.models.Pokemon;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,6 +17,7 @@ public final class AnimeRegister {
     private AnimeRegister() {
 
         byName.put("Doraemon" , new Doraemon());
+        byName.put("Pokemon",new Pokemon());
     }
 
     public Anime getByName(String name) {
